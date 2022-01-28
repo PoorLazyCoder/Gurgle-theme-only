@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+    }
+
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "org.billthefarmer.gurgle"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionName "1.0"
+        versionCode 1
+
+    }
+
+    lintOptions {
+        disable 'IconDensities', 'SetJavaScriptEnabled', 'OldTargetApi',
+	    'NonConstantResourceId', 'ExpiredTargetSdkVersion'
+        // abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+}
