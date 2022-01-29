@@ -1,4 +1,4 @@
-# Gurgle-theme-only!
+# Gurgle Themes
 
 ##
 ![theme (1)](https://user-images.githubusercontent.com/98500513/151636016-dc885e74-ca54-4c4c-8f34-26c4bfb00876.png)
