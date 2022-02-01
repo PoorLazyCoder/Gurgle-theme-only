@@ -1,5 +1,7 @@
 # Gurgle Themes
 
+This is a barebone project that demonstrates how Android's theme works, reference to https://github.com/billthefarmer/gurgle
+
 ##
 ![theme (1)](https://user-images.githubusercontent.com/98500513/151636016-dc885e74-ca54-4c4c-8f34-26c4bfb00876.png)
 ![theme (2)](https://user-images.githubusercontent.com/98500513/151636019-c8ccd531-d1df-48da-bf85-78b65639c174.png)
